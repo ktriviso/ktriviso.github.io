@@ -1,0 +1,174 @@
+html{  
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.wrapper {
+	font-family: "Source Sans Pro";
+	padding: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix:after {
+    content:".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.header nav {
+	background-color: black;
+	border-bottom: 3px solid yellow;
+}
+
+.header ul {
+	display: inline-block;
+	list-style-type: none;
+	text-align: right;
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.header li {
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 15px;
+}
+
+li:hover, .button:hover { 
+    background-color: #C6C6C6;
+}
+
+.button_section:hover {
+	background-color: yellow;
+}
+
+.header h1 {
+	color: yellow;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Merriweather", serif;
+	margin-left: 20px;
+}
+
+.header h2 {
+	margin: 0;
+	text-align: center;
+	font-style: italic;
+	padding: 10px;
+	font-family: "Merriweather";
+	background: #C6C6C6;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+}
+
+.text_del {
+	color: grey;
+}
+
+.text_ins {
+	border-bottom: 2px solid yellow;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+.main {
+	background-image: url("../img/coworking.jpg");
+	display: block;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(255,255,255,.7);
+	width: 350px;
+	padding: 30px;
+	margin: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .7);
+	float: right;
+	}
+
+.overlay h1 {
+	margin: 10px;
+	font-size: 25px;
+}
+
+.overlay p {
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+.button {
+	padding: 10px 15px;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	margin: 10px;
+	text-transform: uppercase;
+	font-family: "Oswald";
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .7);
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 5px;
+
+}
+
+.box {
+	padding: 20px;
+	border-right: 1px solid black;
+	background-color: #DCDCDC;
+	float: left;
+	width: 33.333%;
+}
+
+.box h1 {
+	font-family: "Merriweather", serif;
+	font-size: 20px;
+}
+
+
+.button_section {
+	background: #B6B6B6;
+	padding: 10px 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .7);
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-weight: 900;
+	display: block;
+	text-align: center;
+	font-family: "Oswald";
+}
+
+.section {
+	padding: 20px;
+	background-color: #DCDCDC;
+}
+
+.box p {
+	padding-bottom: 15px;
+}
+
+#last_box {
+	border-right: none;
+}
+
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
