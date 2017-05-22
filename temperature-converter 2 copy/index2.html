@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+
+    <body>
+
+        <main>
+
+            <h1>CELSIUS CONVERSION</h1>
+            <p>Leave the math to us.</p>
+
+            <div class=inputSection>
+                <input type="text" id="fahrenheit" placeholder="&#x2109;" required>
+
+				<button type="button" id="trigger">CONVERT</button>
+            </div>
+
+			<div class=inputSection>
+                <input type="text" id="celsius" placeholder="&#x2103;" required>
+
+				<button type="button" id="trigger2">CONVERT</button>
+            </div>
+
+			<!-- answer section -->
+			<div class="answerSection">
+
+				<p>
+					<span id="celsiusConvertedAnswer"></span>
+					<span class="degree degree-fahrenheit">&#x2109;</span>
+				</p>
+
+				<p>
+					<span id="fahrenheitConvertedAnswer"></span>
+					<span class="degree degree-celsius">&#x2103;</span>
+				</p>
+
+			</div>
+
+			<!-- link back to home page -->
+			<footer>
+
+				<h3 id="mouseButton"><a href="index.html">GO BACK</a></h3>
+
+			</footer>
+
+        </main>
+
+		<!-- Jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/project.js"></script>
+
+    </body>
+
+</html>

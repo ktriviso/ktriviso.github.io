@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- Flexbox Parent Centering All Content -->
+
+	<main>
+
+			<div id="location">
+
+				<!-- api call for users location -->
+				<h3 id="welcome"></h3>
+
+			</div>
+
+			<div class="currentTemp">
+
+				<!-- inputs for the converter -->
+				<p>
+					<span id="celsius"></span>
+					<span class="degree">&#x2103;</span>
+				</p>
+
+				<p>
+					<span id="fahrenheit"></span>
+					<span class="degree">&#x2109;</span>
+				</p>
+
+			</div>
+
+			<div id="converterPage">
+				<p id="converterMessage">Just want a simple converter?</p>
+				<p id= "clickButton"><a href="index2.html">Click Here</a></p>
+			</div>
+
+	</main>
+
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Map JS for Geoloc and Weather -->
+	<script type="text/javascript" src="js/map.js"></script>
+
+
+</body>
+</html>

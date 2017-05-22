@@ -1,0 +1,71 @@
+body {
+    color: white;
+    font-family:"Contrail One", sans-serif;
+    margin-top: 40px;
+    background-color: black;
+}
+
+main {
+    background-image: url("../img/thom-527.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+}
+
+p {
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+h3 {
+    display: inline-block;
+    width: max-content;
+    align-content: center;
+    padding: 10px,10px,20px 10px;
+}
+
+input {
+    color: #333;
+}
+
+button {
+    color: black;
+}
+
+#answerSection {
+    padding: 40px;
+}
+
+.inputSection {
+    margin: 10px;
+}
+
+.degree {
+    display: none;
+}
