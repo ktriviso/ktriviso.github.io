@@ -27,7 +27,20 @@ $(document).ready(function () {
 
 		}
 
-	});
+
+// legendary bonus
+//
+// 		$('li').click(function(){
+// 			$(this).remove();
+// 		})
+//
+// 		theres no list items when the page is initially loaded. "event bubbling" . how you can solve this issue by attaching the click to an element that is always on the page. you need .on when you are dynamically content generation.
+//
+// 		$('#list').on('click', 'li', function () {
+// 			$(this).remove();
+// 		})
+//
+// 	});
 
 });
 
